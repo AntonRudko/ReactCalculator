@@ -1,0 +1,30 @@
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px ;
+}
+
+
+input{
+    width: calc(100%-20px);
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 1.2 rem;
+    border: 1px solid #ccc;
+}
+
+.result{
+    font-size: 1.2rem;
+    margin: 5px;
+
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
