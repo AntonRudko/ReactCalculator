@@ -1,0 +1,16 @@
+.button {
+	border-radius: 50%;
+	border: none;
+	background-color: dimgray;
+	width: 35px;
+	aspect-ratio: 1;
+	margin: 0 auto;
+}
+.button:nth-child(1),
+.button:nth-child(2),
+.button:nth-child(3) {
+	background-color: lightgray;
+}
+.button:nth-child(4n){
+    background-color: orange;
+}
